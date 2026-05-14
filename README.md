@@ -9,13 +9,13 @@ O conteúdo é baseado em cursos, projetos reais e experimentações práticas.
 
 ```
 studies/
-├── spring/
+├── postgresql/
+│   └── otimizacao/
+│       ├── resumo-otimizacao-postgresql.md       → Resumo do curso de desempenho e otimização
+│       └── scripts/                              → Scripts SQL utilizados no curso
+└── spring/
 │   └── spring-batch/
-│       └── resumo.md           → Resumo e exemplos práticos com Spring Batch
-└── postgresql/
-    └── otimizacao/
-        ├── otimizacao.md       → Resumo do curso de desempenho e otimização
-        └── scripts/            → Scripts SQL utilizados no curso
+│       └── resumo-spring-batch.md                → Resumo e exemplos práticos com Spring Batch    
 ```
 
 ---
@@ -24,7 +24,7 @@ studies/
 
 | Arquivo | Descrição |
 |---|---|
-| [otimizacao.md](./postgresql/otimizacao/otimizacao.md) | Resumo completo do curso *Administração com PostgreSQL: Desempenho e Otimização* — índices, plano de execução, particionamento, CTEs e mais |
+| [resumo-otimizacao-postgresql.md](./postgresql/otimizacao/resumo-otimizacao-postgresql.md) | Resumo completo do curso *Administração com PostgreSQL: Desempenho e Otimização* — índices, plano de execução, particionamento, CTEs e mais |
 | [scripts/](./postgresql/otimizacao/scripts/) | Scripts SQL do curso organizados por módulo |
 
 ---
@@ -33,15 +33,17 @@ studies/
 
 ### Spring Batch
 
-| Arquivo | Descrição |
-|---|---|
-| [resumo.md](./spring/spring-batch/resumo.md) | Conceitos, exemplos práticos e casos de uso com Spring Batch 5 + Spring Boot 4 |
-| [batchstudy](https://github.com/seu-usuario/batchstudy) | Projeto prático de importação de CSV com Spring Batch |
+| Arquivo                                      | Descrição |
+|----------------------------------------------|---|
+| [resumo-spring-batch.md](./spring/spring-batch/resumo-spring-batch.md) | Conceitos, exemplos práticos e casos de uso com Spring Batch 5 + Spring Boot 4 |
+| [batchstudy](./spring/spring-batch)            | Projeto prático de importação de CSV com Spring Batch |
 ---
 
 ## 🛠️ Tecnologias abordadas
 
+![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot_4-6DB33F?style=flat&logo=springboot&logoColor=white)
+![Spring Batch](https://img.shields.io/badge/Spring_Batch-6DB33F?style=flat&logo=spring&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
 
 
