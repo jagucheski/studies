@@ -36,7 +36,7 @@ studies/
 | Arquivo                                                                | Descrição |
 |------------------------------------------------------------------------|---|
 | [resumo-spring-batch.md](./spring/spring-batch/resumo-spring-batch.md) | Conceitos, exemplos práticos e casos de uso com Spring Batch 5 + Spring Boot 4 |
-| [batchstudy](./batchstudy)                                             | Projeto prático de importação de CSV com Spring Batch |
+| [batchstudy](https://github.com/jagucheski/batchstudy)                                             | Projeto prático de importação de CSV com Spring Batch |
 ---
 
 ## 🛠️ Tecnologias abordadas
