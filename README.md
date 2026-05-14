@@ -22,10 +22,8 @@ studies/
 
 ## 🐘 PostgreSQL
 
-| Arquivo | Descrição |
-|---|---|
-| [resumo-otimizacao-postgresql.md](./postgresql/otimizacao/resumo-otimizacao-postgresql.md) | Resumo completo do curso *Administração com PostgreSQL: Desempenho e Otimização* — índices, plano de execução, particionamento, CTEs e mais |
-| [scripts/](./postgresql/otimizacao/scripts/) | Scripts SQL do curso organizados por módulo |
+- 📄 [resumo-otimizacao-postgresql.md](./postgresql/otimizacao/resumo-otimizacao-postgresql.md) — Resumo completo *PostgreSQL: Desempenho e Otimização* — índices, plano de execução, particionamento, CTEs e mais
+- 📁 [scripts](./postgresql/otimizacao/scripts/) — Scripts SQL do curso organizados por módulo
 
 ---
 
@@ -33,10 +31,9 @@ studies/
 
 ### Spring Batch
 
-| Arquivo                                                                | Descrição |
-|------------------------------------------------------------------------|---|
-| [resumo-spring-batch.md](./spring/spring-batch/resumo-spring-batch.md) | Conceitos, exemplos práticos e casos de uso com Spring Batch 5 + Spring Boot 4 |
-| [batchstudy](https://github.com/jagucheski/batchstudy)                                             | Projeto prático de importação de CSV com Spring Batch |
+
+- ⚙️ [batchstudy](https://github.com/jagucheski/batchstudy) - Projeto prático de importação de CSV com Spring Batch
+  
 ---
 
 ## 🛠️ Tecnologias abordadas
