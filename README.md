@@ -14,6 +14,8 @@ studies/
 │       ├── resumo-otimizacao-postgresql.md       → Resumo do curso de desempenho e otimização
 │       └── scripts/                              → Scripts SQL utilizados no curso
 │   └── tuning-sql.md                             → Resumo de práticas de tuning SQL
+└── solid/    
+│   └── resumo-solid.md                           → SOLID em Java — exemplos práticos
 └── spring/
 │   └── spring-batch/
 │       └── resumo-spring-batch.md                → Resumo e exemplos práticos com Spring Batch    
@@ -32,6 +34,13 @@ studies/
 
 ---
 
+## 📐 SOLID
+
+
+- 📄 [resumo-solid](./solid/resumo-solid.md) — SOLID em Java — exemplos práticos
+
+---
+
 ## 🍃 Spring
 
 ### Spring Batch
@@ -45,6 +54,7 @@ studies/
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot_4-6DB33F?style=flat&logo=springboot&logoColor=white)
 ![Spring Batch](https://img.shields.io/badge/Spring_Batch-6DB33F?style=flat&logo=spring&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+![SOLID](https://img.shields.io/badge/SOLID-Principles-blue?style=flat&logo=java&logoColor=white)
 
 
 
