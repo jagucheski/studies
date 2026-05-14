@@ -25,13 +25,12 @@ studies/
 
 ## 🐘 PostgreSQL
 
-### Tuning SQL
-- 📄 [tuning-sql](./postgresql/tuning-sql.md) — Resumo de práticas de tuning SQL
-
 ### Otmização
-- 📄 [resumo-otimizacao-postgresql](./postgresql/otimizacao/resumo-otimizacao-postgresql.md) — Resumo completo *PostgreSQL: Desempenho e Otimização* — índices, plano de execução, particionamento, CTEs e mais
+- 📄 [resumo-otimizacao-postgresql](./postgresql/otimizacao/resumo-otimizacao-postgresql.md) — Resumo *PostgreSQL: Desempenho e Otimização* — índices, plano de execução, particionamento, CTEs e mais
 - 📁 [scripts](./postgresql/otimizacao/scripts/) — Scripts SQL do curso organizados por módulo
 
+### Tuning SQL
+- 📄 [tuning-sql](./postgresql/tuning-sql.md) — Resumo de práticas de tuning SQL
 ---
 
 ## 📐 SOLID
