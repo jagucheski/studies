@@ -2,6 +2,7 @@
 
 Projeto de estudo com **Spring Batch** para importação de dados via arquivo CSV para um banco PostgreSQL.
 
+- ⚙️ [batchstudy](https://github.com/jagucheski/batchstudy) - Projeto prático de importação de CSV com Spring Batch
 ---
 
 ## 🚀 Tecnologias

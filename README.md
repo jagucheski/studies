@@ -22,6 +22,7 @@ studies/
 
 ## 🐘 PostgreSQL
 
+### Otmização
 - 📄 [resumo-otimizacao-postgresql.md](./postgresql/otimizacao/resumo-otimizacao-postgresql.md) — Resumo completo *PostgreSQL: Desempenho e Otimização* — índices, plano de execução, particionamento, CTEs e mais
 - 📁 [scripts](./postgresql/otimizacao/scripts/) — Scripts SQL do curso organizados por módulo
 
@@ -30,8 +31,6 @@ studies/
 ## 🍃 Spring
 
 ### Spring Batch
-
-
 - ⚙️ [batchstudy](https://github.com/jagucheski/batchstudy) - Projeto prático de importação de CSV com Spring Batch
   
 ---
