@@ -10,6 +10,7 @@ O conteúdo é baseado em cursos, projetos reais e experimentações práticas.
 ```
 studies/
 ├── postgresql/
+│   ├── tuning-sql.md                             → Resumo de práticas de tuning SQL
 │   └── otimizacao/
 │       ├── resumo-otimizacao-postgresql.md       → Resumo do curso de desempenho e otimização
 │       └── scripts/                              → Scripts SQL utilizados no curso
