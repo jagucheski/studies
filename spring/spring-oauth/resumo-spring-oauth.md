@@ -27,9 +27,16 @@ Projeto de estudo para autenticação com **OAuth2** e **autenticação de dois 
 2. Crie um projeto
 3. Vá em **APIs & Services → Credentials → Create Credentials → OAuth 2.0 Client ID**
 4. Tipo: **Web application**
-5. Authorized redirect URI: `http://localhost:8080/login/oauth2/code/google`
+5. Authorized redirect URI: `http://localhost:8080/login/google/autorizado`
 6. Copie o **Client ID** e **Client Secret**
 
+
+## 📡 Endpoints - OAuth2 - Google
+
+| Método | Endpoint                  | Descrição                                                                                |
+|--------|---------------------------|------------------------------------------------------------------------------------------|
+| `GET` | `/login/google`           | Gera a URL de autorização do Google com os scopes configurados                           |
+| `GET` | `/login/google/autorizado`| Callback chamado pelo Google após o usuário autorizar o acesso. Retorna dados do usuario |
 
 ## 📡 Endpoints - 2FA/TOTP
 
@@ -37,7 +44,23 @@ Projeto de estudo para autenticação com **OAuth2** e **autenticação de dois 
 |----------|----------|-----------|
 | `POST`   | `/verificar-a2f` | Valida o código TOTP do segundo fator |
 | `PATCH`  | `/configurar-a2f/{email}` | Gera a URL OTPAuth para configurar o 2FA |
+
+## 📡 Endpoints - H2
+| Método   | Endpoint | Descrição |
+|--------|---------------------------|-----------|
 | `GET`    | `/h2-console` | Console do banco H2 |
+---
+
+## 🔄 Fluxo OAuth2
+
+```
+1. Usuário acessa GET /user
+2. Spring redireciona para login do Google
+3. Usuário autentica no Google
+4. Google redireciona para /login/oauth2/code/google
+5. Spring troca o code pelo token de acesso
+6. GET /user retorna { name, email, picture }
+```
 ---
 
 ## 🔒 Fluxo 2FA (TOTP)
@@ -89,15 +112,18 @@ src/main/java/br/com/jagucheski/oauthstudy/
 ├── config/
 │   └── SecurityConfig.java
 ├── controller/
-│   └── AutenticacaoController.java
+│   ├── AutenticacaoController.java
+│   └── GoogleController.java
 ├── model/
-│   ├── DadosAutenticacao2F
-│   ├── Usuario
-│   └── UsuarioAutenticacao2F.java
+│   ├── DadosAutenticacao2F.java
+│   ├── Usuario.java
+│   ├── UsuarioAutenticacao2F.java
+│   └── UsuarioLogiOauth.java
 ├── repository/
 │   └── UsuarioRepository.java
 └── service/
-    ├── UsuarioService.java
+│   ├── LoginGoogleService.java
+│   ├── UsuarioService.java
     └── TotpService.java
 
 src/main/resources/
