@@ -18,7 +18,9 @@ studies/
 │   └── resumo-solid.md                           → SOLID em Java — exemplos práticos
 └── spring/
 │   └── spring-batch/
-│       └── resumo-spring-batch.md                → Resumo e exemplos práticos com Spring Batch    
+│       └── resumo-spring-batch.md                → Resumo e exemplos práticos com Spring Batch
+│   └── spring-oauth/    
+│       └── resumo-spring-oauth.md                → Estudo para autenticação com **OAuth2** e **autenticação de dois fatores (2FA/TOTP)**.
 ```
 
 ---
@@ -44,6 +46,9 @@ studies/
 
 ### Spring Batch
 - ⚙️ [batchstudy](https://github.com/jagucheski/batchstudy) - Projeto prático de importação de CSV com Spring Batch
+
+### Spring Oauth
+- 🔒 [oauthstudy](https://github.com/jagucheski/oauthtudy) - Estudo para autenticação com **OAuth2** e **autenticação de dois fatores (2FA/TOTP)**.
   
 ---
 
